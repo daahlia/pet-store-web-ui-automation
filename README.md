@@ -1,4 +1,4 @@
-# Pet Store UI automation with codeceptjs, puppeteer and mocha
+# Pet Store UI automation with codeceptjs, puppeteer
 
 ## Environment Setup
 
