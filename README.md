@@ -16,7 +16,7 @@
 10. puppeteer
 
 
-## Instruction to Run the API tests
+## Instruction to Run the web ui tests
 
 1. Clone the repository https://github.com/daahlia/pet-store-web-ui-automation.git
 2. Open the Project in Visual Studio Code
