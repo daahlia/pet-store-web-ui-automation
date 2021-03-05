@@ -28,7 +28,7 @@
 
 ## Observed the following issues, while performing testing
 
-Issue 1 - User registration fails and generates 500 - Internal server error, when any of the avaiable field values are not entered. 
+Issue 1 - User registration fails and system generates 500 - Internal server error, when any of the available field values are not entered.
 
 - Steps to reproduce are as below
 1. Navigate to the user registration page
