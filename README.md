@@ -1,4 +1,4 @@
-# Pet Store UI automation testing with codeceptjs, puppeteer and mocha
+# Pet Store UI automation with codeceptjs, puppeteer and mocha
 
 ## Environment Setup
 
@@ -28,4 +28,25 @@
 
 ## Observed the following issues, while performing testing
 
-1. 
+User registration fails and generates 500 - Internal server error, when any of the avaiable field values are not entered. 
+
+- Steps to reproduce are as below
+1. Navigate to the user registration page
+2. Enter input value in User ID, Password fields.
+3. Make sure any (OR all) of the following field values are blank
+   - Repeat Password
+   - id
+   - username
+   - firstName
+   - lastName
+   - email
+   - password
+   - phone
+   - address
+   - city
+   - state
+   - zip
+   - country
+4. Hit the 'Save Account Information' button.
+5. The action taken at step - 4 generates 500 - internal server error.
+If all the fields are required to register a new user, system should genreate relevant validation error when any of the field values are missing.
