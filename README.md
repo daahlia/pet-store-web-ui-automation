@@ -50,3 +50,13 @@ Issue 1 - User registration fails and system generates 500 - Internal server err
 4. Hit the 'Save Account Information' button.
 5. The action taken at step - 4 generates 500 - internal server error.
 If all the fields are required to register a new user, system should genreate relevant validation error when any of the field values are missing.
+
+
+Issue 2 - System unexpectedly allows to add/update products to the cart for users, who are not registered or logged in.
+
+- Steps to reproduce are as below
+1. Hit the url - https://petstore.octoperf.com/actions/Catalog.action
+2. Add/remvoe items to the cart
+3. Update the cart
+4. The actions taken at step-3 and 4 should not be available to a user, who is not registered or logged in.
+5. System should redirect the user to the login page.
