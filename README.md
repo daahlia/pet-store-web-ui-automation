@@ -1,6 +1,6 @@
 # Pet Store UI automation with codeceptjs, puppeteer and mocha
 
-## Environment Setup
+# Environment Setup
 
 # Install the following 
 
@@ -16,7 +16,7 @@
 10. puppeteer
 
 
-## Instruction to Run the web ui tests
+# Instruction to Run the web ui tests
 
 1. Clone the repository https://github.com/daahlia/pet-store-web-ui-automation.git
 2. Open the Project in Visual Studio Code
@@ -24,9 +24,8 @@
 - npx codeceptjs run --reporter mochawesome
 4. The action taken at step 3, will generate a mochawesome report and save it under output folder 
 
-## Issues
 
-## Observed the following issues, while performing testing
+# Observed the following issues, while performing testing
 
 Issue 1 - User registration fails and system generates 500 - Internal server error, when any of the available field values are not entered.
 
